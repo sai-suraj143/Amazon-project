@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+body {
+  background: #e5e5e5;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #131921;
+  padding: 10px;
+}
+.address {
+  display: flex;
+  align-items: end;
+  margin-left: 15px;
+  color: #ffffff;
+  font-size: 10px;
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 0;
+  width: 850px;
+}
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  width: 40px;
+  color: #0f1111;
+  font-size: 14px;
+  padding: 0px 0px 0px 5px;
+  cursor: pointer;
+}
+.search input {
+  border: none;
+  outline: none;
+  width: 650px;
+}
+.button {
+  color: black;
+  background: #ffb703;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+}
+.flag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 10px;
+}
+.signin {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
+}
+.returns {
+  font-size: 14px;
+  color: #ffffff;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
+}
+.nav-bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #1b263b;
+  color: #ffffff;
+  height: 40px;
+  padding: 10px;
+}
+.all {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.deals a {
+  margin-right: 25px;
+  color: #ffffff;
+}
+.service a {
+  margin-right: 25px;
+  color: #ffffff;
+}
+.registry a {
+  margin-right: 25px;
+  color: #ffffff;
+}
+.gift a {
+  margin-right: 25px;
+  color: #ffffff;
+}
+.sell a {
+  margin-right: 25px;
+  color: #ffffff;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  width: 100%;
+}
+#left_btn {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  z-index: 1;
+  background: transparent;
+  color: black;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+}
+#right_btn {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  z-index: 1;
+  background: transparent;
+  color: black;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+}
+.images ul {
+  display: flex;
+  overflow-y: hidden;
+}
+.images ul img {
+  width: 100%;
+  mask-image: linear-gradient(to bottom, #000000 30%, transparent 100%);
+}
+.box-row {
+  display: flex;
+  flex-direction: row;
+  row-gap: 20px;
+  margin: 20px 30px;
+}
+.header-box {
+  margin-top: -25vw;
+  z-index: 1;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 24%;
+  min-width: 200px;
+  background: #ffffff;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 10px;
+  z-index: 1;
+}
+.box a {
+  cursor: pointer;
+  color: #19647e;
+}
+.products2-slider {
+  background: #e5e5e5;
+  border-radius: 10px;
+}
+.products-slider h2 {
+  color: #000000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 35px;
+}
+.products-slider ul {
+  color: #000000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 0px;
+  margin: 35px;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+.products-slider ul img {
+  width: 20%;
+  height: 20%;
+}
+.products-slider ul::-webkit-scrollbar {
+  display: none;
+}
+.products2-slider {
+  background: #e5e5e5;
+  border-radius: 10px;
+}
+.products2-slider h2 {
+  color: #000000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 35px;
+}
+
+.products2-slider ul {
+  margin-top: 0px;
+  margin: 35px;
+  border-radius: 9px;
+  background: #fff;
+  display: flex;
+  overflow-y: hidden;
+}
+.products2-slider ul img {
+  width: 20%;
+  height: 20%;
+}
+.products2-slider ul::-webkit-scrollbar {
+  display: none;
+}
+.sign_in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  line-height: 40px;
+  padding: 80px;
+  background: #ffffff;
+}
+#btn {
+  padding: 6px;
+  background: #ffd60a;
+  border: none;
+  border-radius: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 220px;
+  cursor: pointer;
+}
+footer {
+  background: #131921;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
