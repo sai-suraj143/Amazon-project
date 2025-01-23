@@ -258,3 +258,73 @@ footer {
   justify-content: space-between;
   padding: 20px 60px;
 }
+@media screen and (max-width: 425px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .search {
+    width: 100%;
+  }
+  .input_user {
+    width: 100%;
+  }
+  .input_user span {
+    width: 100px;
+  }
+  .dropdown,
+  .button {
+    font-size: 12px;
+    width: 100%;
+  }
+  .address {
+    font-size: 8px;
+  }
+  .navbar {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .flag,
+  .signin,
+  .returns,
+  .cart {
+    font-size: 8px;
+  }
+  .nav-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .all,
+  .deals a,
+  .service a,
+  .registry a,
+  .gift a,
+  .sell a {
+    margin-right: 10px;
+    font-size: 12px;
+  }
+  .images ul img,
+  .products-slider ul img,
+  .products2-slider ul img {
+    width: 100%;
+    height: auto;
+  }
+  .box {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .products-slider ul,
+  .products2-slider ul {
+    flex-direction: column;
+  }
+  .sign_in {
+    padding: 40px;
+  }
+  #btn {
+    width: 100%;
+  }
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
