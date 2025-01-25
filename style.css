@@ -258,70 +258,47 @@ footer {
   justify-content: space-between;
   padding: 20px 60px;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    padding: 10px 0;
   }
   .search {
     width: 100%;
   }
-  .input_user {
+  .dropdown {
     width: 100%;
   }
-  .input_user span {
-    width: 100px;
-  }
-  .dropdown,
   .button {
-    font-size: 12px;
-    width: 100%;
+    width: auto;
   }
-  .address {
-    font-size: 8px;
-  }
-  .navbar {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+  .address,
   .flag,
   .signin,
   .returns,
   .cart {
-    font-size: 8px;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 5px 0;
   }
+
   .nav-bottom {
     flex-direction: column;
     align-items: flex-start;
   }
-  .all,
-  .deals a,
-  .service a,
-  .registry a,
-  .gift a,
-  .sell a {
-    margin-right: 10px;
-    font-size: 12px;
+  .box-row {
+    flex-direction: column;
+    margin: 10px;
   }
-  .images ul img,
+  .box {
+    max-width: 100%;
+    min-width: auto;
+  }
   .products-slider ul img,
   .products2-slider ul img {
     width: 100%;
     height: auto;
-  }
-  .box {
-    max-width: 100%;
-    min-width: 100%;
-  }
-  .products-slider ul,
-  .products2-slider ul {
-    flex-direction: column;
-  }
-  .sign_in {
-    padding: 40px;
-  }
-  #btn {
-    width: 100%;
   }
   footer {
     flex-direction: column;
